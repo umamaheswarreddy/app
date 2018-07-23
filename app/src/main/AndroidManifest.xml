@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gowthamsaidr.uiapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/csestore"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".WelecomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activityone" />
+        <activity android:name=".Activitytwo" />
+        <activity android:name=".Activitythree" />
+        <activity android:name=".Activityfour" />
+        <activity android:name=".Activityfive" />
+        <activity android:name=".Activitysix" />
+        <activity android:name=".Activityoneone" />
+        <activity android:name=".Activityonetwo" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Activitytwoone" />
+        <activity android:name=".Activitytwotwo" />
+        <activity android:name=".Activitythreeone" />
+        <activity android:name=".Activitythreetwo" />
+        <activity android:name=".Activityfourone" />
+        <activity android:name=".Activityfourtwo" />
+    </application>
+
+</manifest>
